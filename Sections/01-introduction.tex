@@ -110,6 +110,26 @@
 \end{frame}
 %-
 
+\begin{frame}
+    \begin{figure}
+        \includemedia[
+        totalheight=0.5\linewidth,
+        activate=pageopen,
+        passcontext,
+        %transparent,
+        addresource=./Source/gifs/iCub-video.wmv,
+        flashvars={
+        source=./Source/gifs/iCub-video.wmv
+        &autoPlay=true
+        &autoRewind=true
+        &loop=true}
+        ]{\fbox{\includegraphics{Source/gifs/robotdesinfec0.png}}}{VPlayer.swf}
+        \caption{iCub} %FIXME: slides não estão numerando as figuras
+    \end{figure}
+ %*----------- notes__
+ \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+\end{frame}
+
 % {
 % \setbeamertemplate{background}
 % {\includegraphics[trim = 0 0 0 0, clip, width = \the\paperwidth, height = \the\paperheight]{marcel-knupfer-37wuETxVwTQ-unsplash.jpg}}
@@ -150,25 +170,25 @@
 % \end{frame}
 % %-
 % %*----------- SLIDE -------------------------------------------------------------
-% \begin{frame}[c]{Darwin-OP - overview}
-%     %\transboxin[duration=1,direction=30]
-%     \centering
+\begin{frame}[c]{Darwin-OP - overview}
+    %\transboxin[duration=1,direction=30]
+    \centering
 
-%     \includemedia[
-%       width=0.7\linewidth,
-%       totalheight=0.39375\linewidth,
-%       activate=pageopen,
-%       passcontext, 
-%       addresource=./Source/movies/Darwin-OP.mp4,
-%       flashvars={
-%       source=./Source/movies/Darwin-OP.mp4
-%       &autoPlay=true
-%       &Loop=false}
-%       ]{\fbox{\includegraphics{darwin-op}}}{VPlayer.swf}
+    \includemedia[
+      width=0.7\linewidth,
+      totalheight=0.39375\linewidth,
+      activate=pageopen,
+      passcontext, 
+      addresource=./Source/movies/Darwin-OP.mp4,
+      flashvars={
+      source=./Source/movies/Darwin-OP.mp4
+      &autoPlay=true
+      &Loop=false}
+      ]{\fbox{\includegraphics{darwin-op}}}{VPlayer.swf}
 
-% %*----------- notes
-%     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
-% \end{frame}
+%*----------- notes
+    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+\end{frame}
 % %-
 % %*----------- SLIDE -------------------------------------------------------------
 % \begin{frame}[t]{O sistema robótico}
